@@ -9,8 +9,10 @@
 
 ########3##########
 
-print("there once was a man named george")
-print("he was 70 years old")
-print("he really liked the name george")
-print("but he didn't like being 70")
-
+character_name = "john"
+character_age = 35
+print("there once was a man named " + character_name)
+print("he was "+str(character_age)+" years old")
+character_name='mike'
+print("he really liked the name "+character_name)
+print("but he didn't like being "+str(character_age))
