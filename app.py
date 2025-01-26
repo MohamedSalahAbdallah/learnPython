@@ -147,8 +147,53 @@
 
 ########6##########
 
-name = input("What is your name? ")
-age = input("How old are you? ")
+# # Ask the user for their name and age
+# name = input("What is your name? ")
+# age = input("How old are you? ")
 
-print("Hello " + name + "! You are " + age + " years old.")
+# # Print out a message that greets the user and tells them their age
+# # The message is constructed by concatenating the following strings:
+# # 1. "Hello "
+# # 2. The user's name
+# # 3. " You are "
+# # 4. The user's age
+# # 5. " years old."
+# print("Hello " + name + "! You are " + age + " years old.")
 
+
+########7##########
+
+# # Prompt the user to enter a number and convert the input from a string to a float.
+# # This allows the user to enter decimal numbers and not just whole numbers.
+# num1 = float(input("Enter a number: "))
+
+# # Prompt the user to enter a mathematical operator (+, -, *, or /).
+# # This is used to determine the operation to perform on the two numbers.
+# sign = input("Enter an operator: ")
+
+# # Prompt the user to enter another number and convert the input from a string to a float.
+# # This is the second number that will be used in the operation with the first number.
+# num2 = float(input("Enter another number: "))
+
+# # This is a "match statement" that checks the value of the variable sign.
+# # It is a more concise way of writing a series of if/elif statements.
+# match sign:
+#     # If the value of sign is "+", add num1 and num2 and print the result.
+#     case "+":
+#         print(num1 + num2)
+#     # If the value of sign is "-", subtract num2 from num1 and print the result.
+#     case "-":
+#         print(num1 - num2)
+#     # If the value of sign is "*", multiply num1 and num2 and print the result.
+#     case "*":
+#         print(num1 * num2)
+#     # If the value of sign is "/", divide num1 by num2 and print the result.
+#     # If num2 is 0, print "Cannot divide by zero".
+#     case "/":
+#         if num2 == 0:
+#             print("Cannot divide by zero")
+#         else:
+#             print(num1 / num2)
+        
+
+########8##########
