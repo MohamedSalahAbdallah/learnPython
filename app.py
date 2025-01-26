@@ -295,7 +295,15 @@
 
 ########10##########
 
-coordinates = (1,2)
-print(coordinates)
-print(coordinates[0])
-print(coordinates[1])
+# coordinates = (1,2)
+# print(coordinates)
+# print(coordinates[0])
+# print(coordinates[1])
+
+########11##########
+
+def say_hi(name):
+    print("Hi "+name)
+    
+    
+say_hi(input("Enter a name: "))
