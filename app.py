@@ -208,86 +208,94 @@
 
 
 ########9##########
-# A list of my lucky numbers
-lucky_number = [5,7,8,1,6,8,4]
+# # A list of my lucky numbers
+# lucky_number = [5,7,8,1,6,8,4]
 
-# A list of my friends' names
-friends=['bob','joe','sally','mike','oscar']
+# # A list of my friends' names
+# friends=['bob','joe','sally','mike','oscar']
 
-# Print out the list of friends
-print(friends)
+# # Print out the list of friends
+# print(friends)
 
-# Print out the first friend in the list
-print(friends[0])
-# Print out the second friend in the list
-print(friends[1])
-# Print out the third friend in the list
-print(friends[2])
+# # Print out the first friend in the list
+# print(friends[0])
+# # Print out the second friend in the list
+# print(friends[1])
+# # Print out the third friend in the list
+# print(friends[2])
 
-# Print out the last friend in the list
-print(friends[-1])
-# Print out the second-to-last friend in the list
-print(friends[-2])
-# Print out the third-to-last friend in the list
-print(friends[-3])
+# # Print out the last friend in the list
+# print(friends[-1])
+# # Print out the second-to-last friend in the list
+# print(friends[-2])
+# # Print out the third-to-last friend in the list
+# print(friends[-3])
 
-# Print out all the friends from the second one onward
-print(friends[1:])
-# Print out the second, third, and fourth friends in the list
-print(friends[1:4])
+# # Print out all the friends from the second one onward
+# print(friends[1:])
+# # Print out the second, third, and fourth friends in the list
+# print(friends[1:4])
 
-# Combine the lists of friends and lucky numbers
-friends.extend(lucky_number)
-# Print out the combined list
-print(friends)
+# # Combine the lists of friends and lucky numbers
+# friends.extend(lucky_number)
+# # Print out the combined list
+# print(friends)
 
-# Add a new friend named "jackson" to the list
-friends.append('jackson')
-# Print out the updated list
-print(friends)
+# # Add a new friend named "jackson" to the list
+# friends.append('jackson')
+# # Print out the updated list
+# print(friends)
 
-# Insert a new friend named "jackson" at the second position in the list
-friends.insert(1,'jackson')
-# Print out the updated list
-print(friends)
+# # Insert a new friend named "jackson" at the second position in the list
+# friends.insert(1,'jackson')
+# # Print out the updated list
+# print(friends)
 
-# Remove the first occurrence of "jackson" from the list
-friends.remove('jackson')
-# Print out the updated list
-print(friends)
+# # Remove the first occurrence of "jackson" from the list
+# friends.remove('jackson')
+# # Print out the updated list
+# print(friends)
 
-# Remove the last element from the list
-friends.pop()
-# Print out the updated list
-print(friends)
+# # Remove the last element from the list
+# friends.pop()
+# # Print out the updated list
+# print(friends)
 
-# Remove the element at the second position from the list
-friends.pop(1)
-# Print out the updated list
-print(friends)
+# # Remove the element at the second position from the list
+# friends.pop(1)
+# # Print out the updated list
+# print(friends)
 
-# Clear the list of friends
-friends.clear()
-# Print out the cleared list
-print(friends)
+# # Clear the list of friends
+# friends.clear()
+# # Print out the cleared list
+# print(friends)
 
-# Find the index of the first occurrence of "bob" in the list
-print(friends.index('bob'))
+# # Find the index of the first occurrence of "bob" in the list
+# print(friends.index('bob'))
 
-# Count the number of occurrences of "bob" in the list
-print(friends.count('bob'))
+# # Count the number of occurrences of "bob" in the list
+# print(friends.count('bob'))
 
-# Sort the list of friends
-friends.sort()
-# Print out the sorted list
-print(friends)
+# # Sort the list of friends
+# friends.sort()
+# # Print out the sorted list
+# print(friends)
 
-# Reverse the order of the list of friends
-friends.reverse()
-# Print out the reversed list
-print(friends)
+# # Reverse the order of the list of friends
+# friends.reverse()
+# # Print out the reversed list
+# print(friends)
 
-# Make a copy of the list of friends
-friends2 = friends.copy()
-# Print out the copy
-print(friends2)
+# # Make a copy of the list of friends
+# friends2 = friends.copy()
+# # Print out the copy
+# print(friends2)
+
+
+########10##########
+
+coordinates = (1,2)
+print(coordinates)
+print(coordinates[0])
+print(coordinates[1])
